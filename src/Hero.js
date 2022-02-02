@@ -1,16 +1,29 @@
 import Nav from "./Nav";
+import "./Hero.css";
+import group from "./IMGS/Group.png";
 function Hero() {
   return (
-    <div>
+    <div className="Hero-page">
       <Nav />
-      <h3>Introduce Your Product Quickly and Effectively </h3>
-      <p>
-        It seemed like it should have been so simple. There was nothing
-        inherently difficult with getting the project done. It was simple and
-        straightforward enough that even a child should have been able to
-        complete it on time, but that wasn't the case. The deadline had arrived
-        and the project remained unfinished.
-      </p>
+      <div className="Hero-content">
+        <div className="Hero-context">
+          <h3>Introduce Your Product Quickly and Effectively </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim.
+          </p>
+        </div>
+        <button className="purchase-btn">Purchase UI Kit</button>
+        <button className="learn-btn">Learn More</button>
+      </div>
+      <div className="path">
+        <div className="group">
+          <img src={group} />
+        </div>
+      </div>
     </div>
   );
 }

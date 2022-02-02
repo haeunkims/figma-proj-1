@@ -1,0 +1,39 @@
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav-item {
+  margin-left: 4rem;
+}
+.links {
+  color: #505f98;
+  position: absolute;
+  left: 11.46%;
+  right: 71.53%;
+  top: 0.39%;
+  bottom: 99.09%;
+}
+.landie {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  color: #37447e;
+  text-align: center;
+}
+.buy-btn {
+  width: 160px;
+  height: 26px;
+  background: #111b47;
+  border-radius: 2px;
+  position: absolute;
+  height: 18px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 90%;
+}

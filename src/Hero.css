@@ -1,0 +1,51 @@
+.Hero-content {
+  position: absolute;
+  left: 0.42%;
+  right: 62.12%;
+  top: 7.61%;
+  bottom: 83.3%;
+  width: 539.37px;
+  height: 421px;
+}
+.Hero-context {
+  position: absolute;
+  left: 0.42%;
+  right: 62.12%;
+  top: 7.61%;
+  bottom: 85.57%;
+  width: 539.37px;
+  height: 316px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+h3 {
+  color: #091133;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  position: absolute;
+  height: 132px;
+  left: 0px;
+  right: 0.37px;
+  top: 0px;
+}
+p {
+  position: absolute;
+  height: 164px;
+  left: 0px;
+  right: 0.37px;
+  top: 152px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #505f98;
+}
+.group {
+  position: absolute;
+  left: 44.26%;
+  right: -11.96%;
+  top: 6.35%;
+  bottom: 76.79%;
+}
