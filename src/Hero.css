@@ -1,21 +1,27 @@
-.Hero-content {
-  position: absolute;
-  left: 0.42%;
-  right: 62.12%;
-  top: 7.61%;
-  bottom: 83.3%;
-  width: 539.37px;
-  height: 421px;
+header {
+  height: 100vh;
+}
+.row {
+  display: flex;
+  margin-top: 5%;
+  height: inherit;
+}
+
+.column {
+  padding-top: 8%;
+  flex: 50%;
 }
 .Hero-context {
-  position: absolute;
-  left: 0.42%;
-  right: 62.12%;
-  top: 7.61%;
-  bottom: 85.57%;
-  width: 539.37px;
-  height: 316px;
+  text-align: start;
+  width: 90%;
+  height: inherit;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Hero-para {
+  padding-top: 5%;
+}
+.context-btn {
+  margin-top: 5%;
 }
 h3 {
   color: #091133;
@@ -24,17 +30,10 @@ h3 {
   font-weight: 500;
   font-size: 50px;
   line-height: 66px;
-  position: absolute;
   height: 132px;
-  left: 0px;
-  right: 0.37px;
-  top: 0px;
 }
 p {
-  position: absolute;
   height: 164px;
-  left: 0px;
-  right: 0.37px;
   top: 152px;
   font-style: normal;
   font-weight: normal;
@@ -43,9 +42,34 @@ p {
   color: #505f98;
 }
 .group {
-  position: absolute;
-  left: 44.26%;
-  right: -11.96%;
-  top: 6.35%;
-  bottom: 76.79%;
+  width: 100%;
+  height: auto;
+}
+.btn:link,
+.btn:visited,
+input[type="submit"] {
+  display: inline-block;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 50px;
+  border: 1px solid #111b47;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.btn-full:link,
+.btn-full:visited,
+input[type="submit"] {
+  background-color: #111b47;
+  color: white;
+  margin-right: 35px;
+}
+.btn-ghost:link,
+.btn-ghost:visited {
+  color: #111b47;
+}
+.btn:hover,
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  color: #111b47;
 }
